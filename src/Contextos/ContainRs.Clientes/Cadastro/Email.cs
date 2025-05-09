@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace ContainRs.Api.Domain;
+namespace ContainRs.Clientes.Cadastro;
 
 public class Email
 {

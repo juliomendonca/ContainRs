@@ -1,4 +1,4 @@
-﻿namespace ContainRs.Api.Domain;
+﻿namespace ContainRs.Clientes.Cadastro;
 
 public static class UfStringConverter
 {
