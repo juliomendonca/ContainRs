@@ -1,10 +1,11 @@
 ﻿using ContainRs.Api.Contracts;
-using ContainRs.Api.Domain;
 using ContainRs.Api.Extensions;
-using ContainRs.Api.Locacoes;
+using ContainRs.Vendas;
+using ContainRs.Vendas.Locacoes;
+
 using Microsoft.AspNetCore.Mvc;
 
-namespace ContainRs.Api.Propostas;
+namespace ContainRs.Vendas.Propostas;
 
 public static class SolicitacoesEndpoints
 {
@@ -12,7 +13,7 @@ public static class SolicitacoesEndpoints
     public static IEndpointRouteBuilder MapSolicitacoesEndpoints(this IEndpointRouteBuilder builder)
     {
         var group = builder
-            .MapGroup(EndpointConstants.ROUTE_SOLICITACOES)
+            .MapGroup(EndpointConstants.ROUTE_PEDIDOS)
             .RequireAuthorization(policy => policy.RequireRole("Cliente"))
             .WithTags(EndpointConstants.TAG_LOCACAO)
             .WithOpenApi();
