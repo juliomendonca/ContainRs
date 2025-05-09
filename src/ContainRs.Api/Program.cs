@@ -1,5 +1,5 @@
 using ContainRs.Api.Clientes;
-using ContainRs.Api.Containeres;
+using ContainRs.Api.Conteineres;
 using ContainRs.Api.Contracts;
 using ContainRs.Api.Data;
 using ContainRs.Api.Data.Repositories;
@@ -28,7 +28,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 });
 
 builder.Services.AddScoped<IRepository<Cliente>, ClienteRepository>();
-builder.Services.AddScoped<IRepository<Solicitacao>, SolicitacaoRepository>();
+builder.Services.AddScoped<IRepository<PedidoLocacao>, SolicitacaoRepository>();
 builder.Services.AddScoped<IRepository<Proposta>, PropostaRepository>();
 builder.Services.AddScoped<IRepository<Locacao>, LocacaoRepository>();
 builder.Services.AddScoped<IRepository<Conteiner>, ConteinerRepository>();

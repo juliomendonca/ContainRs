@@ -1,6 +1,6 @@
 ﻿using ContainRs.Api.Domain;
 
-namespace ContainRs.Api.Responses;
+namespace ContainRs.Api.Clientes;
 
 public record ClienteResponse(string Id, string Nome, string Email, string? Celular, IEnumerable<EnderecoResponse>? Enderecos = null)
 {

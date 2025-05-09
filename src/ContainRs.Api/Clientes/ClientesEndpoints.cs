@@ -1,9 +1,6 @@
 ﻿using ContainRs.Api.Contracts;
 using ContainRs.Api.Domain;
-using ContainRs.Api.Endpoints;
 using ContainRs.Api.Identity;
-using ContainRs.Api.Requests;
-using ContainRs.Api.Responses;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Transactions;

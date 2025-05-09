@@ -1,12 +1,10 @@
 ﻿using ContainRs.Api.Contracts;
 using ContainRs.Api.Domain;
-using ContainRs.Api.Endpoints;
-using ContainRs.Api.Responses;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ContainRs.Api.Containeres;
+namespace ContainRs.Api.Conteineres;
 
-public static class ContaineresEndpoints
+public static class ConteineresEndpoints
 {
     public const string ENDPOINT_NAME_GET_CONTEINER = "GetConteiner";
 

@@ -1,7 +1,7 @@
 ﻿using ContainRs.Api.Domain;
 using System.ComponentModel.DataAnnotations;
 
-namespace ContainRs.Api.Requests;
+namespace ContainRs.Api.Clientes;
 
 public class EnderecoRequest
 {

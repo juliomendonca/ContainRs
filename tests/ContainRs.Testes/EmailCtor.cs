@@ -1,4 +1,4 @@
-using ContainRs.Domain.Models;
+using ContainRs.Api.Domain;
 
 namespace ContainRs.Testes;
 
